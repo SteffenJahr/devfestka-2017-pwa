@@ -1,0 +1,23 @@
+{
+  "name": "devfestka-2017-pwa",
+  "version": "1.0.0",
+  "description": "Demo for DEVFEST Karlsruhe 2017",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c1 -p 7080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SteffenJahr/devfestka-2017-pwa.git"
+  },
+  "author": "Steffen Jahr <steffen.jahr@thinktecture.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SteffenJahr/devfestka-2017-pwa/issues"
+  },
+  "homepage": "https://github.com/SteffenJahr/devfestka-2017-pwa#readme",
+  "devDependencies": {
+    "http-server": "^0.10.0",
+    "workbox-cli": "^2.1.2"
+  }
+}

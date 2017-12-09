@@ -1,5 +1,4 @@
 const appFiles = [
-    '/',
     '/index.html',
     '/service-worker.js',
     '/manifest.json',
@@ -10,9 +9,6 @@ const appFiles = [
     '/logos/logo_168.png',
     '/logos/logo_192.png',
     '/index_files/app.min.css',
-    '/index_files/css',
-    '/index_files/css(1)',
-    '/index_files/css(2)',
     '/index_files/devfest-banner.svg',
     '/index_files/devfest-text.svg',
     '/index_files/fontello.css',
@@ -21,7 +17,7 @@ const appFiles = [
     '/script.js',
 ];
 
-const cacheName = 'cache_1.2';
+const cacheName = 'cache_1.3';
 
 self.addEventListener('install', event => {
     console.log('[ServiceWorker] Install ServiceWorker');

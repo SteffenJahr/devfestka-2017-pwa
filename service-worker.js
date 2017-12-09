@@ -1,6 +1,5 @@
 const appFiles = [
     '/index.html',
-    '/service-worker.js',
     '/manifest.json',
     '/logos/logo_48.png',
     '/logos/logo_72.png',
@@ -15,6 +14,7 @@ const appFiles = [
     '/index_files/gdevelopers.png',
     '/index_files/libs.min.css',
     '/script.js',
+    '/service-worker.js'
 ];
 
 const cacheName = 'cache_1.3';

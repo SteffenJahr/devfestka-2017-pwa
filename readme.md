@@ -6,7 +6,7 @@ This demo shows how a website can be modified to become a Progressive Web App.
 
 To run this application Node.js have to be installed.
 
-##Installation
+## Installation
 
 Run npm install in the folders api and client.
 
